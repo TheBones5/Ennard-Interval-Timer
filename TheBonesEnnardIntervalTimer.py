@@ -2,7 +2,7 @@ import tkinter as tk
 from datetime import timedelta
 
 class DualStopwatchApp:
-    def __init__(self, master): #If you're reading this to learn more about code, thats pretty cool bro true mutt right there
+    def __init__(self, master): #If you came from youtube and are reading this to learn more about code, thats pretty cool bro 
         self.master = master
         self.master.title("TheBones5 Ennard Interval Timer")
 
@@ -97,3 +97,4 @@ if __name__ == "__main__":
     root = tk.Tk()
     app = DualStopwatchApp(root)
     root.mainloop()
+
